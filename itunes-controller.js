@@ -30,6 +30,7 @@ function ItunesController() {
             <h4>${song.collection}</h4>
             <audio controls class="audio">
               <source src="${song.preview}" type="audio/ogg">
+              <source src="${song.preview}" type="audio/mpeg">
             </audio>
           </div>
         </div>`
