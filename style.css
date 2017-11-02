@@ -13,6 +13,7 @@ body{
     font-size: 90px;
     font-family:cursive;
     color:whitesmoke;
+    text-shadow:5px 2px 15px rgba(216, 84, 199, 0.7490196078431373);
 }
 .selection-area button{
     background-color: rgba(216, 84, 199, 0.7490196078431373);
