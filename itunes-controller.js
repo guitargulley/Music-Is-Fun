@@ -7,6 +7,11 @@ function ItunesController() {
     itunesService.getMusicByArtist(artist).then(draw); //after get music by artist returns what are you doing with the objects?
   }
 
+  function drawTitle(){
+    var index = Math.floor(Math.random()*12)
+    var choices = ['LIFE', 'FREEDOM', 'INSPIRATION', 'ME!', 'LIFE', 'FREEDOM', 'INSPIRATION', 'ME!', 'LIFE', 'FREEDOM', 'INSPIRATION', 'ME!']
+    document.getElementById('heading-text').innerText = choices[index]
+  }
   //Start coding here
   function draw(songList) {
 
@@ -36,6 +41,7 @@ function ItunesController() {
         </div>`
 
       }
+      drawTitle()
     }
     document.getElementById('songs').innerHTML = template
   }
@@ -47,8 +53,9 @@ function ItunesController() {
       }
     }
   }, true);
+  
 
 
-
+drawTitle()
 
 }
