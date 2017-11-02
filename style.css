@@ -26,9 +26,15 @@ body{
 .selection-area input:hover{
     box-shadow: 0px 0px 50px rgba(216, 84, 199, 0.7490196078431373);
 }
-#get-music-button .button-display { display: none; }
-#get-music-button:hover .button-shown { display: none; }
-#get-music-button:hover .button-display { display: inline; }
+#get-music-button .button-display { 
+    display: none; 
+}
+#get-music-button:hover .button-shown {
+     display: none; 
+    }
+#get-music-button:hover .button-display {
+     display: inline; 
+    }
 .song-list{
     padding-top: 30px;
 }

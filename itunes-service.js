@@ -25,7 +25,7 @@ function ItunesService() {
         };
       })
       //changes button back to GET MUSIC once songs are loaded
-      $('#get-music-button').text('GET RECORDS');
+      $('#get-music-button').html(`<span class="button-shown">GET RECORDS</span><span class="button-display">DANCE TIME!</span>`);
       return songList;
     })
   }
